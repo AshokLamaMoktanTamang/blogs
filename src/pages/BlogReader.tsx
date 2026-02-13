@@ -252,9 +252,6 @@ export default function BlogReader() {
                 <Clock className="w-4 h-4 text-cv-accent/60" />
                 <span>{post.readTime} min read</span>
               </div>
-              <div className="text-cv-accent/80 font-bold italic">
-                {post.author}
-              </div>
             </div>
 
             <h1 className="text-4xl sm:text-6xl font-bold text-cv-text-primary mb-8 leading-[1.1] tracking-tight">

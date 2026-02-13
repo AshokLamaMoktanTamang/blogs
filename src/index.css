@@ -27,7 +27,7 @@
 
 @layer components {
     .cv-card {
-        @apply bg-cv-bg-alt border border-cv-border rounded-xl transition-all duration-300 hover:border-cv-accent/40 hover:shadow-[0_0_30px_rgba(45,212,191,0.05)];
+        @apply bg-cv-bg-alt/40 border border-transparent rounded-2xl transition-all duration-500 hover:bg-cv-bg-alt hover:border-cv-border/50 hover:shadow-2xl hover:shadow-black/50 hover:-translate-y-1;
     }
 
     .cv-section-title {
